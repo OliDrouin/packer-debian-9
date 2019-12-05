@@ -4,7 +4,7 @@
 
 **Pre-built Vagrant Box**:
 
-  - [`vagrant init geerlingguy/debian9`](https://app.vagrantup.com/geerlingguy/boxes/debian9)
+  - [`vagrant init olidrouin/debian9`](https://app.vagrantup.com/olidrouin/boxes/debian9)
 
 This example build configuration installs and configures Debian 9 amd64 minimal using Ansible, and then generates a Vagrant box file for VirtualBox.
 
@@ -40,5 +40,7 @@ There's an included Vagrantfile that allows quick testing of the built Vagrant b
 MIT license.
 
 ## Author Information
+
+Modified 2019, Olivier Drouin.
 
 Created in 2017 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).

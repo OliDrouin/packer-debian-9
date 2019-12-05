@@ -4,8 +4,8 @@
   gather_facts: yes
 
   roles:
-    - geerlingguy.nfs
-    - geerlingguy.packer-debian
+    - olidrouin.nfs
+    - olidrouin.packer_debian
 
   tasks:
     - name: Install some helpful utilities.
@@ -15,4 +15,4 @@
           - wget
           - curl
           - vim
-        state: installed
+        state: latest
